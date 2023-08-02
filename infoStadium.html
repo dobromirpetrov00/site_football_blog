@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Real Madrid Fanpage</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+      <script src="modernizr.custom.40753.js"></script>
+      <script src="respond.min.js"></script>
+      <link rel="stylesheet" href="styles.css">
+      <link rel="shortcut icon" href="images/logoTitle.ico">
+      <link rel="apple-touch-icon" href="logoHeader.png">
+      <link rel="icon" sizes="192x192" href="images/logoHeader.png">
+   </head>
+   <body>
+      <div class="container">
+         <header>
+            <!-- logo in header -->
+            <div>
+               <a href="index.html">
+                  <img src="images/logoHeader.png" width="120" height="120" alt="image logo header">
+               </a>
+            </div>
+
+            <!-- title in header -->
+            <h1>Real Madrid Fanpage</h1>
+         </header>
+
+         <!-- navigation on left side -->
+         <nav class="sitenavigation">
+            <div class="navigation-menu-button">
+               <img src="images/menu.png" width="60" height="60" alt="Show navigation" >
+            </div>
+            <ul>
+               <li><a href="index.html">Home</a></li>
+               <li><a href="infoPlayers.html">Info about players</a></li>
+               <li><a href="infoGoalkeepers.html">Info about goalkeepers</a></li>
+               <li><a href="infoTrainers.html">Trainers</a></li>
+               <li><a href="infoHistory.html">History</a></li>
+               <li><a href="infoStadium.html">Stadium</a></li>
+               <li><a href="infoClothes.html">Clothes</a></li>
+               <li><a href="infoPhotos.html">Photos</a></li>
+            </ul>
+         </nav>
+
+         <!-- main content in the middle -->
+         <article>
+            <p class="firstPara">Here you will find information about the stadiums!</p>
+
+            <!-- stadium - Campo de O'Donnell -->
+            <player class="stadium">
+               <div class="playerInfo">
+                  <div class="stadiumName">Campo de O'Donnell</div>
+                  <span class="stadiumInfo">
+                     Campo de O'Donnell was a multi-use stadium in Madrid, Spain. It was initially a field (campo) in the area of O'Donnell, next to the main boulevard called Calle de O'Donnell. It became the home stadium of Real Madrid in 1912. The capacity of the stadium was 5,000 spectators. In 1923, Real Madrid moved on to Campo de Ciudad Lineal, and Campo de O'Donnell was closed. Campo de O'Donnell hosted four Copa del Rey finals, in 1908, 1909, 1913 and 1918.
+                  </span>
+               </div>
+               <img src="images/stadiums/donnel.png" class="imgStadium" alt="stadium1" >
+            </player>
+
+            <!-- stadium - Campo de Ciudad Lineal -->
+            <player class="stadium">
+               <div class="playerInfo">
+                  <div class="stadiumName">Campo de Ciudad Lineal</div>
+                  <span class="stadiumInfo">
+                     Campo de Ciudad Lineal was a multi-use stadium in Madrid, Spain. It was initially used as the stadium of Real Madrid. It was replaced by Estadio Chamartín in 1924. The capacity of the stadium was 8,000 spectators.
+                  </span>
+               </div>
+               <img src="images/stadiums/ciudad.png" class="imgStadium" alt="stadium2" >
+            </player>
+
+            <!-- stadium - Estadio Chamartín -->
+            <player class="stadium">
+               <div class="playerInfo">
+                  <div class="stadiumName">Estadio Chamartín</div>
+                  <span class="stadiumInfo">
+                     Estadio Chamartín was a multi-use stadium in Madrid, Spain. It was initially used as the stadium of Real Madrid matches before the Santiago Bernabéu Stadium opened in 1947. The stadium held 22,500 people and was built in 1924. The stadium was inaugurated on 17 May 1924, with a 3-2 victory for Real Madrid against Newcastle United.
+                  </span>
+               </div>
+               <img src="images/stadiums/chamartin.png" class="imgStadium" alt="stadium3" >
+            </player>
+
+            <!-- stadium - Santiago Bernabéu -->
+            <player class="stadium lastPlayer">
+               <div class="playerInfo">
+                  <div class="stadiumName">Santiago Bernabéu</div>
+                  <span class="stadiumInfo">
+                     The Santiago Bernabéu Stadium is a football stadium in Madrid, Spain. With a current seating capacity of 81,044, it has the second-largest capacity in Spain, and it has been the home stadium of Real Madrid since its completion in 1947. It is named after footballer and legendary Real Madrid president Santiago Bernabéu (1895-1978). It has hosted the final of the European Cup/UEFA Champions League on four occasions: in 1957, 1969, 1980, 2010. The stadium also hosted the second leg of the 2018 Copa Libertadores Finals. The final matches for the 1964 European Nations' Cup and the 1982 FIFA World Cup were also held at the Bernabéu.
+                  </span>
+               </div>
+               <img src="images/stadiums/bernabeu.png" class="imgStadium" alt="stadium4" >
+            </player>
+         </article>
+
+         <!-- content on right side -->
+         <aside>
+            <h2 id="contentstart">Upcoming matches</h2>
+            <p class="accent">09.05.23 - 21:00h</p>
+            <p class="championship">UEFA</p>
+            <p>vs. Manchester City</p>
+            <p class="accent">13.05.23 - 21:00h</p>
+            <p class="championship">LaLiga</p>
+            <p>vs. Getafe</p>
+            <p class="accent">23.05.23 - 21:00h</p>
+            <p class="championship">LaLiga</p>
+            <p>vs. Rayo Vallecano</p>
+
+            <!-- clock -->
+            <div class="clock">
+               <div class="hour-hand"></div>
+               <div class="minute-hand"></div>
+               <div class="second-hand"></div>
+            </div>                        
+         </aside>
+
+         <!-- footer with contact information -->
+         <footer>
+            <p>SANTIAGO BERNABÉU STADIUM</p>
+            <p>Avenida Concha Espina, Nº 1 - Door 44</p>
+            <p>28036 Madrid</p>
+            <p>+34 91 398 43 00</p>
+         </footer>
+      </div>
+      <script src="script.js"></script>
+   </body>
+</html>

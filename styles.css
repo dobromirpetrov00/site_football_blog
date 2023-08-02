@@ -1,0 +1,451 @@
+﻿/* reset styles */
+html {
+   font-size: 14px;
+}
+a, article, body, div, figure, footer, header, 
+h1, h2, h3, img, li, nav, p, section, ul {
+   border: 0;
+   padding: 0;
+   margin: 0;
+}
+img {
+   max-width: 100%;
+}
+ul {
+   list-style-type: none;
+}
+
+/* body and page container */
+body {
+   background: green;
+   background: url("images/grass.jpg");
+   font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+   margin: 0 auto;
+   position: relative;
+   background-color: darkseagreen;
+}
+p {
+   font-size: 1.2em;
+}
+
+/* header section */
+header {
+   width: 76%;
+   padding: 1em 2% 0.5em;
+   text-align: center;
+   background-color: forestgreen;
+   overflow: auto;
+   float: left;
+}
+h1 {
+   color: white;
+   font-size: 6em;
+   line-height: 1.4em;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   text-shadow: 0 0 5px white;
+}
+header div {
+   max-width: 224px;
+   float: left;
+   display: none;
+}
+
+/* site navigation */
+nav.sitenavigation {
+   padding: 2%;
+   width: 16%;
+   float: right;
+   text-align: right;
+}
+nav.sitenavigation ul {
+   text-align: left;
+   display: none;
+   position: absolute;
+   right: 2%;
+}
+nav.sitenavigation li {
+   font-size: 1.2em;
+   border: 2px solid black;
+   margin-bottom: 10px;
+}
+nav.sitenavigation a {
+   padding: 0.2em;
+   display: block;
+   background-color: rgb(140,198,63);
+   font-weight: bold;
+}
+nav.sitenavigation a:link {
+   color: black;
+   text-decoration: none;
+}
+nav.sitenavigation a:visited {
+   color: black;
+}
+nav.sitenavigation a:hover, nav.sitenavigation a:focus {
+   color: black;
+   background-color: white;
+}
+nav.sitenavigation a:active {
+   position: relative;
+   top: 1px;
+   left: 1px;
+}
+
+/* main content */
+article {
+   width: 100%;
+   font-size: 1.25em;
+   line-height: 1.6em;
+   padding: 1em 0;
+   background-color: white;
+   float: right;
+}
+article p {
+   font-size: 0.8em;
+   margin-top: 1em;
+   padding: 0 3%;
+   clear: both;
+}
+article figure {
+   max-width: 100%;
+   float: left;
+}
+.firstPara {
+   margin-top: 0;
+   margin-bottom: 15px;
+}
+
+/* players */
+.imgPlayer {
+   padding-left: 3%;
+}
+.playerInfo {
+   padding: 0 3%;
+   font-size: 15px;
+   line-height: normal;
+}
+player {
+   display: flex;
+   border-top: 2px solid black;
+   padding: 10px 0;
+}
+.lastPlayer {
+   border-bottom: 2px solid black;
+}
+field {
+   position: relative;
+}
+.gk {
+   position: absolute;
+   top: 120px;
+   left: 50px;
+}
+.df_nacho {
+   position: absolute;
+   top: 25px;
+   left: 105px;
+}
+.df_rudiger {
+   position: absolute;
+   top: 90px;
+   left: 105px;
+}
+.df_militao {
+   position: absolute;
+   top: 150px;
+   left: 105px;
+}
+.df_carvajal {
+   position: absolute;
+   top: 215px;
+   left: 105px;
+}
+.mf_kroos {
+   position: absolute;
+   top: 90px;
+   left: 155px;
+}
+.mf_valverde {
+   position: absolute;
+   top: 150px;
+   left: 155px;
+}
+.lf_vinicus {
+   position: absolute;
+   top: 25px;
+   left: 180px;
+}
+.rf_asensio {
+   position: absolute;
+   top: 215px;
+   left: 180px;
+}
+.fw_modric {
+   position: absolute;
+   top: 80px;
+   left: 215px;
+}
+.fw_benzema {
+   position: absolute;
+   top: 160px;
+   left: 215px;
+}
+.playerName {
+   text-decoration: underline;
+   font-weight: 1000;
+}
+
+/* goalkeepers */
+.imgGoalkeeper {
+   padding-right: 5%;
+   padding-top: 2%;
+}
+.gkHonors {
+   list-style-type: disc;
+   padding-left: 3%;
+   padding-top: 3%;
+   font-size: 14px;
+}
+.goalkeepers .playerInfo {
+   flex: 2;
+}
+.thingWon {
+   font-weight: 600;
+}
+
+/* trainers */
+.trainers .playerInfo {
+   flex: 2;
+}
+.trHonors {
+   list-style-type: disc;
+   padding-left: 3%;
+   padding-top: 3%;
+   font-size: 14px;
+}
+.imgTrainer {
+   padding-right: 5%;
+   padding-top: 2%;
+}
+
+/* history of team */
+.teamEra {
+   text-decoration: underline;
+   font-weight: 1000;
+   text-align: center;
+}
+.eraInfo {
+   margin-top: 10px;
+   text-align: justify;
+}
+
+/* stadiums */
+.stadium .playerInfo {
+   /* flex: 1; */
+   text-align: justify;
+}
+.stadiumName {
+   text-decoration: underline;
+   font-weight: 1000;
+   text-align: center;
+   padding-bottom: 10px;
+}
+.stadiumInfo {
+   margin-top: 10px;
+   text-align: justify;
+}
+.imgStadium {
+   padding-right: 5%;
+   padding-top: 2%;
+   position: relative;
+   top: 30px;
+   width: auto;
+   height: 8vw;
+   max-height: 120px;
+   min-height: 80px;
+}
+
+/* clothes */
+.imgKit {
+   padding-left: 3%;
+}
+.kitInfo {
+   padding: 0 3%;
+   font-size: 15px;
+   line-height: normal;
+}
+
+/* sidebar */
+aside {
+   width: 24%;
+   padding: 1em 3%;
+   float: right;
+   display: none;
+}
+aside h2 {
+   margin: 0 0 0.4em;
+   font-family: Georgia, "Times New Roman", Times, serif;
+   font-size: 1.25em;
+   text-decoration: underline;
+}
+aside p {
+   margin: 0 0 1em 1em;
+   padding-left: 7%;
+}
+aside p.accent {
+   margin: 0;
+   font-weight: bold;
+}
+aside p.championship {
+   margin: 0;
+   font-weight: bold;
+}
+
+/* clock */
+.clock {
+   width: 200px;
+   height: 200px;
+   position: relative;
+   border-radius: 50%;
+   background-color: #f1f1f1;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.hour-hand, .minute-hand, .second-hand {
+   width: 2px;
+   height: 70px;
+   background-color: #333;
+   position: absolute;
+   transform-origin: bottom center;
+   z-index: 3;
+}
+.hour-hand {
+   height: 50px;
+   top: 50px;
+}
+.hour-hand {
+   transform: rotate(60deg);
+}
+.minute-hand {
+   transform: rotate(10deg);
+   top: 30px;
+}
+.second-hand {
+   top: 40px;
+   height: 60px;
+   background-color: red;
+   transform: rotate(45deg);
+}
+.clock:before {
+   content: "";
+   display: block;
+   width: 10px;
+   height: 10px;
+   border-radius: 50%;
+   background-color: #333;
+   position: absolute;
+   z-index: 5;
+} 
+
+/* footer section */
+footer {
+   padding: 1em;
+   clear: both;
+   color: white;
+   background-color: black;
+   text-align: right;
+}
+
+/* very small screen styles */
+@media (width > 100px){
+   article {
+      background-color: #c8f098;
+      font-size: 2em;
+      clear: none;
+   }
+   .clock {
+      display: none;
+   }
+}
+
+/* small screen / tablet styles */
+@media (width > 500px){
+   aside {
+      display: block;
+   }
+   article {
+      background-color: #c8f098;
+      width: 70%;
+      font-size: 2em;
+      float: left;
+      clear: none;
+   }
+   .clock {
+      display: none;
+   }
+}
+
+/* standart screen styles */
+@media (width > 760px) {
+   body {
+      padding: 1em;
+   }
+   .container {
+      border-radius: 2em;
+      background-color: rgb(140,198,63);
+   }
+   header {
+      width: auto;
+      float: none;
+      border-top-left-radius: 2em;
+      border-top-right-radius: 2em;
+   }
+   header div {
+      display: block;
+   }
+   nav.sitenavigation {
+      padding: 2%;
+      width: 21%;
+      float: left;
+   }
+   nav.sitenavigation img {
+      display: none;
+   }
+   nav.sitenavigation ul {
+      display: block;
+      position: static;
+   }
+   article {
+      width: 50%;
+   }
+   aside {
+      width: 19%;
+   }
+   footer {
+      border-bottom-left-radius: 2em;
+      border-bottom-right-radius: 2em;
+   }
+   .clock {
+      display: flex;
+      width: auto;
+   }
+}
+
+/* large screen styles */
+@media (width > 1080px) {
+   .container {
+      width: 1040px;
+   }
+   .clock {
+      display: flex;
+      width: auto;
+   }
+}
+
+@page {
+   margin: 0.75in;
+}

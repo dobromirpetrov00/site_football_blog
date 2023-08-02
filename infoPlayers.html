@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Real Madrid Fanpage</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+      <script src="modernizr.custom.40753.js"></script>
+      <script src="respond.min.js"></script>
+      <link rel="stylesheet" href="styles.css">
+      <link rel="shortcut icon" href="images/logoTitle.ico">
+      <link rel="apple-touch-icon" href="logoHeader.png">
+      <link rel="icon" sizes="192x192" href="images/logoHeader.png">
+   </head>
+   <body>
+      <div class="container">
+         <header>
+            <!-- logo in header -->
+            <div>
+               <a href="index.html">
+                  <img src="images/logoHeader.png" width="120" height="120" alt="image logo header">
+               </a>
+            </div>
+
+            <!-- title in header -->
+            <h1>Real Madrid Fanpage</h1>
+         </header>
+
+         <!-- navigation on left side -->
+         <nav class="sitenavigation">
+            <div class="navigation-menu-button">
+               <img src="images/menu.png" width="60" height="60" alt="Show navigation" >
+            </div>
+            <ul>
+               <li><a href="index.html">Home</a></li>
+               <li><a href="infoPlayers.html">Info about players</a></li>
+               <li><a href="infoGoalkeepers.html">Info about goalkeepers</a></li>
+               <li><a href="infoTrainers.html">Trainers</a></li>
+               <li><a href="infoHistory.html">History</a></li>
+               <li><a href="infoStadium.html">Stadium</a></li>
+               <li><a href="infoClothes.html">Clothes</a></li>
+               <li><a href="infoPhotos.html">Photos</a></li>
+            </ul>
+         </nav>
+
+         <!-- main content in the middle -->
+         <article>
+            <p class="firstPara">Here you will find information about the players in the team!</p>
+
+            <!-- terrain -->
+            <field>
+               <p>
+                  <img usemap="#fieldmap" src="images/field.jpg" width="450" height="293" alt="diagram of a soccer field" class="imagemap" >
+               </p>
+               <map name="fieldmap">
+                  <area shape="rect" coords="9,123,22,165" alt="small rectangle">
+                  <area shape="rect" coords="24,111,44,179" alt="small rectangle">
+                  <area shape="poly" coords="24,70,85,70,85,220,23,221,22,179,45,180,46,111,23,112" alt="large rectangle">
+                  <area shape="poly" coords="88,120,98,138,97,155,87,172" alt="edge of a circle">
+                  <area shape="circle" coords="226,148,35" alt="circle in center">
+                  <area shape="poly" coords="361,120,347,137,350,154,361,168" alt="edge of a circle">
+                  <area shape="poly" coords="365,72,423,72,423,111,401,111,402,184,423,184,423,220,365,221" alt="large rectangle">
+                  <area shape="rect" coords="406,113,425,178" alt="small rectangle">
+                  <area shape="rect" coords="428,126,442,168" alt="small rectangle">
+               </map>
+               <a href="#gk"><img title="Thibaut Courtois" class="gk" src="images/players/gk_courois.png" width="auto" height="50" alt="gk"></a>
+               <a href="#df_nacho"><img title="Nacho" class="df_nacho" src="images/players/df_nacho.png" width="auto" height="50" alt="df_nacho"></a>
+               <a href="#df_rudiger"><img title="Antonio Rüdiger" class="df_rudiger" src="images/players/df_rudiger.png" width="auto" height="50" alt="df_rudiger"></a>
+               <a href="#df_militao"><img title="Éder Militão" class="df_militao" src="images/players/df_militao.png" width="auto" height="50" alt="df_militao"></a>
+               <a href="#df_carvajal"><img title="Dani Carvajal" class="df_carvajal" src="images/players/df_carvajal.png" width="auto" height="50" alt="df_carvajal"></a>
+               <a href="#mf_kroos"><img title="Toni Kroos" class="mf_kroos" src="images/players/mf_kroos.png" width="auto" height="50" alt="mf_kroos"></a>
+               <a href="#mf_valverde"><img title="Federico Valverde" class="mf_valverde" src="images/players/mf_valverde.png" width="auto" height="50" alt="mf_valverde"></a>
+               <a href="#lf_vinicus"><img title="Vinícius Júnior" class="lf_vinicus" src="images/players/lf_vinicus.png" width="auto" height="50" alt="lf_vinicus"></a>
+               <a href="#rf_asensio"><img title="Marco Asensio" class="rf_asensio" src="images/players/rf_asensio.png" width="auto" height="50" alt="rf_asensio"></a>
+               <a href="#fw_modric"><img title="Luka Modrić" class="fw_modric" src="images/players/fw_modric.png" width="auto" height="50" alt="fw_modric"></a>
+               <a href="#fw_benzema"><img title="Karim Benzema" class="fw_benzema" src="images/players/fw_benzema.png" width="auto" height="50" alt="fw_benzema"></a>
+            </field>
+
+            <!-- player - goalkeeper -->
+            <player>
+               <img class="imgPlayer" src="images/players/gk_courois.png" width="auto" height="120" alt="team real madrid">
+               <div id="gk" class="playerInfo">
+                  <span class="playerName">Thibaut Nicolas Marc Courtois</span> (born 11 May 1992) is a Belgian professional footballer who plays as a goalkeeper for La Liga club Real Madrid and the Belgium national team. Regarded as one of the best goalkeepers in the world, he is known for excellent reflexes, acrobatic saves, and command of the penalty area.
+               </div>
+            </player>
+            <!-- player - defender - Nacho -->
+            <player>
+               <img class="imgPlayer" src="images/players/df_nacho.png" width="auto" height="120" alt="team real madrid">
+               <div id="df_nacho" class="playerInfo">
+                  <span class="playerName">José Ignacio Fernández Iglesias</span> (born 18 January 1990) is a Spanish professional footballer who plays as a defender for La Liga club Real Madrid and the Spain national team. He has spent his entire career with Real Madrid after making his debut with the first team in 2011, making over 300 appearances and winning several trophies, including five Champions Leagues.
+               </div>
+            </player>
+            <!-- player - defender - Rudiger -->
+            <player>
+               <img class="imgPlayer" src="images/players/df_rudiger.png" width="auto" height="120" alt="team real madrid">
+               <div id="df_rudiger" class="playerInfo">
+                  <span class="playerName">Antonio Rüdiger</span> (born 3 March 1993) is a German professional footballer who plays as a centre-back for La Liga club Real Madrid and the Germany national team. He was signed by Chelsea in 2017, where he won the FA Cup in his first season, followed by the UEFA Europa League in his second season, and the UEFA Champions League in 2021. In 2022, Rüdiger signed for Real Madrid.
+               </div>
+            </player>
+            <!-- player - defender - Militao -->
+            <player>
+               <img class="imgPlayer" src="images/players/df_militao.png" width="auto" height="120" alt="team real madrid">
+               <div id="df_militao" class="playerInfo">
+                  <span class="playerName">Éder Gabriel</span> Militão (born 18 January 1998) is a Brazilian professional footballer who plays for the La Liga club Real Madrid and the Brazil national team. Considered one of the best defenders in the world, he is known for his exceptional tackling, marking, and aerial abilities. He won two La Liga titles, and the Champions League in 2022.
+               </div>
+            </player>
+            <!-- player - defender - Carvajal -->
+            <player>
+               <img class="imgPlayer" src="images/players/df_carvajal.png" width="auto" height="120" alt="team real madrid">
+               <div id="df_carvajal" class="playerInfo">
+                  <span class="playerName">Daniel "Dani" Carvajal Ramos</span> (born 11 January 1992) is a Spanish professional footballer who plays as a right back for La Liga club Real Madrid and the Spain national team. He broke into the first team in 2013, and has subsequently gone on to win 20 major trophies at Real Madrid including five Champions League trophies, three La Liga titles and a Copa del Rey.
+               </div>
+            </player>
+            <!-- player - middle - Kroos -->
+            <player>
+               <img class="imgPlayer" src="images/players/mf_kroos.png" width="auto" height="120" alt="team real madrid">
+               <div id="mf_kroos" class="playerInfo">
+                  <span class="playerName">Toni Kroos</span> (born 4 January 1990) is a German professional footballer who plays as a midfielder for La Liga club Real Madrid. Widely regarded as one of the greatest midfielders of all time. He is known for his vision, passing, creativity, crossing and set-piece ability.
+               </div>
+            </player>
+            <!-- player - middle - Valverde -->
+            <player>
+               <img class="imgPlayer" src="images/players/mf_valverde.png" width="auto" height="120" alt="team real madrid">
+               <div id="mf_valverde" class="playerInfo">
+                  <span class="playerName">Federico Santiago Valverde Dipetta</span> (born 22 July 1998) is a Uruguayan professional footballer who plays as a central midfielder for La Liga club Real Madrid and the Uruguay national team. A versatile player known for his pace, stamina, work rate, and shooting ability, he can also be deployed as a defensive midfielder, a right winger, and occasionally a right-back.
+               </div>
+            </player>
+            <!-- player - left for - Vinicus -->
+            <player>
+               <img class="imgPlayer" src="images/players/lf_vinicus.png" width="auto" height="120" alt="team real madrid">
+               <div id="lf_vinicus" class="playerInfo">
+                  <span class="playerName">Vinícius José Paixão de Oliveira Júnior</span> (born 12 July 2000) is a Brazilian professional footballer who plays as a winger for La Liga club Real Madrid and the Brazil national team. Considered one of the best players in the world, he is known for his dribbling skills, high and explosive pace and playmaking.
+               </div>
+            </player>
+            <!-- player - right for - Asensio -->
+            <player>
+               <img class="imgPlayer" src="images/players/rf_asensio.png" width="auto" height="120" alt="team real madrid">
+               <div id="rf_asensio" class="playerInfo">
+                  <span class="playerName">Marco Asensio Willemsen</span> (born 21 January 1996) is a Spanish professional footballer who plays as a winger and attacking midfielder for La Liga club Real Madrid and the Spain national team. After starting his career with Mallorca, Asensio signed for Real Madrid in November 2014. He has won three Champions League and three La Liga trophies.
+               </div>
+            </player>
+            <!-- player - for - Modric -->
+            <player>
+               <img class="imgPlayer" src="images/players/fw_modric.png" width="auto" height="120" alt="team real madrid">
+               <div id="fw_modric" class="playerInfo">
+                  <span class="playerName">Luka Modrić</span> (born 9 September 1985) is a Croatian professional footballer who plays as a midfielder for La Liga club Real Madrid and captains the Croatia national team. He is widely regarded as one of the greatest midfielders of all time and as the greatest ever Croatian footballer.
+               </div>
+            </player>
+            <!-- player - for - Benzema -->
+            <player class="lastPlayer">
+               <img class="imgPlayer" src="images/players/fw_benzema.png" width="auto" height="120" alt="team real madrid">
+               <div id="fw_benzema" class="playerInfo">
+                  <span class="playerName">Karim Mostafa Benzema</span> (born 19 December 1987) is a French professional footballer who plays as a striker for and captains La Liga club Real Madrid. Widely regarded as one of the greatest strikers of all time, he is a creative and prolific forward renowned for his incredible goal-scoring ability, as well as his technical skills, vision, and versatility on the field.
+               </div>
+            </player>
+         </article>
+
+         <!-- content on right side -->
+         <aside>
+            <h2 id="contentstart">Upcoming matches</h2>
+            <p class="accent">09.05.23 - 21:00h</p>
+            <p class="championship">UEFA</p>
+            <p>vs. Manchester City</p>
+            <p class="accent">13.05.23 - 21:00h</p>
+            <p class="championship">LaLiga</p>
+            <p>vs. Getafe</p>
+            <p class="accent">23.05.23 - 21:00h</p>
+            <p class="championship">LaLiga</p>
+            <p>vs. Rayo Vallecano</p>
+
+            <!-- clock -->
+            <div class="clock">
+               <div class="hour-hand"></div>
+               <div class="minute-hand"></div>
+               <div class="second-hand"></div>
+            </div>                        
+         </aside>
+
+         <!-- footer with contact information -->
+         <footer>
+            <p>SANTIAGO BERNABÉU STADIUM</p>
+            <p>Avenida Concha Espina, Nº 1 - Door 44</p>
+            <p>28036 Madrid</p>
+            <p>+34 91 398 43 00</p>
+         </footer>
+      </div>
+      <script src="script.js"></script>
+   </body>
+</html>
